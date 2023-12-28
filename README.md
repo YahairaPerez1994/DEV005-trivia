@@ -1,8 +1,3 @@
----
-runme:
-  id: 01HJRWS6XKQR2AB5Q2VZ9D5N00
-  version: v2.0
----
 
 # Trivia de Peliculas
 
