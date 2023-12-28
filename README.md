@@ -15,6 +15,8 @@
 
 ## 1. Preámbulo
 
+![image](https://github.com/YahairaPerez1994/DEV005-trivia/assets/124813555/bd537ae5-22b8-4d33-bda3-51be41b435ec)
+
 Una _trivia_ es un tipo de juego, generalmente en el marco de un concurso, en el
 que se plantea una serie de preguntas cuyas respuestas deben ser elegidas entre
 diferentes opciones predeterminadas.
