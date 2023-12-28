@@ -354,40 +354,5 @@ la necesidad (o "problema") que tiene tu usuaria. Incluye algunas imágenes de
 tus prototipos en papel y lápiz que nos ayuden a entender el proceso,
 no el resultado. ¿Fuiste cambiando cosas en el camino?, ¿Cuáles?, ¿Por qué?.
 
-## 7. Ambiente de trabajo y lecturas complementarias
 
-### Prepara tu ambiente de trabajo
 
-#### Si estás dando tus primeros pasos en el Desarrolo Web
-
-Quizás prefieras trabajar con alguna herramienta de edición de código en línea
-como [Replit](https://repl.it)  o [CodeSandbox](https://codesandbox.io/).
-
-[Tutorial Replit](https://www.loom.com/share/2f796990c8054df793c8b61ddebf63ad)
-
-[Tutorial CodeSandbox](https://www.loom.com/share/7dc9fcef9cdb4c6a826dd702ab214452)
-
-### Recursos y temas relacionados
-
-#### Diseño de experiencia de usuario (User Experience Design)
-
-* [Blog sobre diseño de experiencia de usuario](https://medium.com/laboratoria/qu%C3%A9-es-ser-una-ux-designer-f81fbc45a44c)
-
-#### Desarrollo Front-end
-
-* [Tipos de valores](https://curriculum.laboratoria.la/es/topics/javascript/01-basics/01-values-variables-and-types)
-* [Declaración de variables](https://curriculum.laboratoria.la/es/topics/javascript/01-basics/02-variables)
-* [Control de flujo](https://curriculum.laboratoria.la/es/topics/javascript/02-flow-control)
-
-#### Organización del Trabajo
-
-* [Metodologías Ágiles](https://www.youtube.com/watch?v=v3fLx7VHxGM)
-* [Scrum en menos de 2 minutos](https://www.youtube.com/watch?v=TRcReyRYIMg)
-* [Scrum en Detalle](https://youtu.be/nOlwF3HRrAY). No
-   esperamos que hagas todo eso desde este proyecto.
-
-#### Entrega
-
-* Todo tu proyecto debe estar como entregable en un link funcional que nos
-   permita ver tu código, puede ser el link de tu proyecto en linea ya sea
-   [Replit](https://repl.it) o [CodeSandbox](https://codesandbox.io/)
