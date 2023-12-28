@@ -1,4 +1,10 @@
-# Trivia
+---
+runme:
+  id: 01HJRWS6XKQR2AB5Q2VZ9D5N00
+  version: v2.0
+---
+
+# Trivia de Peliculas
 
 ## Índice
 
@@ -10,7 +16,7 @@
 * [6. Alcance del proyecto](#6-alcance-del-proyecto)
 * [7. Ambiente de trabajo y lecturas complementarias](#7-ambiente-de-trabajo-y-lecturas-complementarias)
 
-***
+---
 
 ## 1. Preámbulo
 
@@ -18,15 +24,9 @@ Una _trivia_ es un tipo de juego, generalmente en el marco de un concurso, en el
 que se plantea una serie de preguntas cuyas respuestas deben ser elegidas entre
 diferentes opciones predeterminadas.
 
-En la actualidad existen muchas posibilidades de participar de una _trivia
-online_. Con una rápida búsqueda en Internet, te podrás dar cuenta de que existen
-_trivias_ de diversas temáticas (ciencia, series, televisión, etc.).
-
-![TRIVIA](https://phandroid.s3.amazonaws.com/wp-content/uploads/2018/01/hq-trivia-android-screenshot.jpg)
-
 ## 2. Resumen del proyecto
 
-**¿Qué tengo que hacer exactamente?**  
+__¿Qué tengo que hacer exactamente?__  
 Construirás la aplicación Web de una _trivia_.  
 No temas, vas a aprender mucho estos días.
 
@@ -46,96 +46,106 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 
 - [ ] **Uso de HTML semántico**
 
-  <details><summary>Links</summary><p>
+   <details><summary>Links</summary><p>
 
-  * [HTML semántico](https://curriculum.laboratoria.la/es/topics/html/02-html5/02-semantic-html)
-  * [Semantics - MDN Web Docs Glossary](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML)
+   * [HTML semántico](https://curriculum.laboratoria.la/es/topics/html/02-html5/02-semantic-html)
+   * [Semantics - MDN Web Docs Glossary](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML)
+
 </p></details>
 
 ### CSS
 
 - [ ] **Uso de selectores de CSS**
 
-  <details><summary>Links</summary><p>
+   <details><summary>Links</summary><p>
 
-  * [Intro a CSS](https://curriculum.laboratoria.la/es/topics/css/01-css/01-intro-css)
-  * [CSS Selectors - MDN](https://developer.mozilla.org/es/docs/Web/CSS/CSS_Selectors)
+   * [Intro a CSS](https://curriculum.laboratoria.la/es/topics/css/01-css/01-intro-css)
+   * [CSS Selectors - MDN](https://developer.mozilla.org/es/docs/Web/CSS/CSS_Selectors)
+
 </p></details>
 
 ### Web APIs
 
 - [ ] **Uso de selectores del DOM**
 
-  <details><summary>Links</summary><p>
+   <details><summary>Links</summary><p>
 
-  * [Manipulación del DOM](https://curriculum.laboratoria.la/es/topics/browser/02-dom/03-1-dom-methods-selection)
-  * [Introducción al DOM - MDN](https://developer.mozilla.org/es/docs/Web/API/Document_Object_Model/Introduction)
-  * [Localizando elementos DOM usando selectores - MDN](https://developer.mozilla.org/es/docs/Web/API/Document_object_model/Locating_DOM_elements_using_selectors)
+   * [Manipulación del DOM](https://curriculum.laboratoria.la/es/topics/browser/02-dom/03-1-dom-methods-selection)
+   * [Introducción al DOM - MDN](https://developer.mozilla.org/es/docs/Web/API/Document_Object_Model/Introduction)
+   * [Localizando elementos DOM usando selectores - MDN](https://developer.mozilla.org/es/docs/Web/API/Document_object_model/Locating_DOM_elements_using_selectors)
+
 </p></details>
 
 - [ ] **Manejo de eventos del DOM (listeners, propagación, delegación)**
 
-  <details><summary>Links</summary><p>
+   <details><summary>Links</summary><p>
 
-  * [Introducción a eventos - MDN](https://developer.mozilla.org/es/docs/Learn/JavaScript/Building_blocks/Events)
-  * [EventTarget.addEventListener() - MDN](https://developer.mozilla.org/es/docs/Web/API/EventTarget/addEventListener)
-  * [EventTarget.removeEventListener() - MDN](https://developer.mozilla.org/es/docs/Web/API/EventTarget/removeEventListener)
-  * [El objeto Event](https://developer.mozilla.org/es/docs/Web/API/Event)
+   * [Introducción a eventos - MDN](https://developer.mozilla.org/es/docs/Learn/JavaScript/Building_blocks/Events)
+   * [EventTarget.addEventListener() - MDN](https://developer.mozilla.org/es/docs/Web/API/EventTarget/addEventListener)
+   * [EventTarget.removeEventListener() - MDN](https://developer.mozilla.org/es/docs/Web/API/EventTarget/removeEventListener)
+   * [El objeto Event](https://developer.mozilla.org/es/docs/Web/API/Event)
+
 </p></details>
 
 - [ ] **Manipulación dinámica del DOM**
 
-  <details><summary>Links</summary><p>
+   <details><summary>Links</summary><p>
 
-  * [Introducción al DOM](https://developer.mozilla.org/es/docs/Web/API/Document_Object_Model/Introduction)
-  * [Node.appendChild() - MDN](https://developer.mozilla.org/es/docs/Web/API/Node/appendChild)
-  * [Document.createElement() - MDN](https://developer.mozilla.org/es/docs/Web/API/Document/createElement)
-  * [Document.createTextNode()](https://developer.mozilla.org/es/docs/Web/API/Document/createTextNode)
-  * [Element.innerHTML - MDN](https://developer.mozilla.org/es/docs/Web/API/Element/innerHTML)
-  * [Node.textContent - MDN](https://developer.mozilla.org/es/docs/Web/API/Node/textContent)
+   * [Introducción al DOM](https://developer.mozilla.org/es/docs/Web/API/Document_Object_Model/Introduction)
+   * [Node.appendChild() - MDN](https://developer.mozilla.org/es/docs/Web/API/Node/appendChild)
+   * [Document.createElement() - MDN](https://developer.mozilla.org/es/docs/Web/API/Document/createElement)
+   * [Document.createTextNode()](https://developer.mozilla.org/es/docs/Web/API/Document/createTextNode)
+   * [Element.innerHTML - MDN](https://developer.mozilla.org/es/docs/Web/API/Element/innerHTML)
+   * [Node.textContent - MDN](https://developer.mozilla.org/es/docs/Web/API/Node/textContent)
+
 </p></details>
 
 ### JavaScript
 
 - [ ] **Tipos de datos primitivos**
 
-  <details><summary>Links</summary><p>
+   <details><summary>Links</summary><p>
 
-  * [Valores primitivos - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Data_structures#valores_primitivos)
+   * [Valores primitivos - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Data_structures#valores_primitivos)
+
 </p></details>
 
 - [ ] **Strings (cadenas de caracteres)**
 
-  <details><summary>Links</summary><p>
+   <details><summary>Links</summary><p>
 
-  * [Strings](https://curriculum.laboratoria.la/es/topics/javascript/06-strings)
-  * [String — Cadena de caracteres - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String)
+   * [Strings](https://curriculum.laboratoria.la/es/topics/javascript/06-strings)
+   * [String — Cadena de caracteres - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String)
+
 </p></details>
 
 - [ ] **Variables (declaración, asignación, ámbito)**
 
-  <details><summary>Links</summary><p>
+   <details><summary>Links</summary><p>
 
-  * [Valores, tipos de datos y operadores](https://curriculum.laboratoria.la/es/topics/javascript/01-basics/01-values-variables-and-types)
-  * [Variables](https://curriculum.laboratoria.la/es/topics/javascript/01-basics/02-variables)
+   * [Valores, tipos de datos y operadores](https://curriculum.laboratoria.la/es/topics/javascript/01-basics/01-values-variables-and-types)
+   * [Variables](https://curriculum.laboratoria.la/es/topics/javascript/01-basics/02-variables)
+
 </p></details>
 
 - [ ] **Uso de condicionales (if-else, switch, operador ternario, lógica booleana)**
 
-  <details><summary>Links</summary><p>
+   <details><summary>Links</summary><p>
 
-  * [Estructuras condicionales y repetitivas](https://curriculum.laboratoria.la/es/topics/javascript/02-flow-control/01-conditionals-and-loops)
-  * [Tomando decisiones en tu código — condicionales - MDN](https://developer.mozilla.org/es/docs/Learn/JavaScript/Building_blocks/conditionals)
+   * [Estructuras condicionales y repetitivas](https://curriculum.laboratoria.la/es/topics/javascript/02-flow-control/01-conditionals-and-loops)
+   * [Tomando decisiones en tu código — condicionales - MDN](https://developer.mozilla.org/es/docs/Learn/JavaScript/Building_blocks/conditionals)
+
 </p></details>
 
 - [ ] **Funciones (params, args, return)**
 
-  <details><summary>Links</summary><p>
+   <details><summary>Links</summary><p>
 
-  * [Funciones (control de flujo)](https://curriculum.laboratoria.la/es/topics/javascript/02-flow-control/03-functions)
-  * [Funciones clásicas](https://curriculum.laboratoria.la/es/topics/javascript/03-functions/01-classic)
-  * [Arrow Functions](https://curriculum.laboratoria.la/es/topics/javascript/03-functions/02-arrow)
-  * [Funciones — bloques de código reutilizables - MDN](https://developer.mozilla.org/es/docs/Learn/JavaScript/Building_blocks/Functions)
+   * [Funciones (control de flujo)](https://curriculum.laboratoria.la/es/topics/javascript/02-flow-control/03-functions)
+   * [Funciones clásicas](https://curriculum.laboratoria.la/es/topics/javascript/03-functions/01-classic)
+   * [Arrow Functions](https://curriculum.laboratoria.la/es/topics/javascript/03-functions/02-arrow)
+   * [Funciones — bloques de código reutilizables - MDN](https://developer.mozilla.org/es/docs/Learn/JavaScript/Building_blocks/Functions)
+
 </p></details>
 
 - [ ] **Uso de identificadores descriptivos (Nomenclatura y Semántica)**
@@ -148,40 +158,39 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 
 - [ ] **Crear prototipos de alta fidelidad que incluyan interacciones**
 
-
 ## 4. Consideraciones generales
 
-* Completar el proyecto **no es un requisito para ser admitida al _bootcamp_**.
+* Completar el proyecto __no es un requisito para ser admitida al _bootcamp___.
 * Este proyecto se debe trabajar en duplas.
 * La lógica del proyecto debe estar implementada completamente en JS, HTML y CSS.
-En este proyecto NO está permitido usar librerías o frameworks,
-solo [vanilla JavaScript](https://medium.com/laboratoria-how-to/vanillajs-vs-jquery-31e623bbd46e).
+   En este proyecto NO está permitido usar librerías o frameworks,
+   solo [vanilla JavaScript](https://medium.com/laboratoria-how-to/vanillajs-vs-jquery-31e623bbd46e).
 * Preocúpate de que ambas puedan hacer y aprender de todo. Esto no se trata
-de "repartir" el trabajo para hacer "más". El objetivo es aprender
-colaborativamente, no "terminar y entregar".
+   de "repartir" el trabajo para hacer "más". El objetivo es aprender
+   colaborativamente, no "terminar y entregar".
 * Queremos verte aprender lo que aún no sabes. Sé transparente para que podamos
-entender tu proceso de aprendizaje. Nos interesa el proceso y no solamente el
-resultado final.
+   entender tu proceso de aprendizaje. Nos interesa el proceso y no solamente el
+   resultado final.
 
 ## 5. Recomendaciones
 
 ### Prototipo
 
 Algo que siempre ayuda a "poner en concreto” lo que tienes en mente,
-es hacer un simple prototipo en papel y lápiz **de todo el proyecto**.
+es hacer un simple prototipo en papel y lápiz __de todo el proyecto__.
 Dibujar es un proceso rápido que permite entender cómo, cuándo y dónde
 suceden las cosas; Dónde exactamente debe decir tal o cual cosa, qué pasa
 si la usuaria hace A o B, dónde debe hacer _click_, qué información
 exactamente quieres mostrarle, etc.
-**Dedica un máximo de dos horas a esto antes de ponerte a codear**.
+__Dedica un máximo de dos horas a esto antes de ponerte a codear__.
 
 ### No postergues lo que no sabes hacer, comienza por ahí
 
 No gastes horas discutiendo la temática de la _trivia_ o haciendo logotipos
 teniendo la sensación de que estás “avanzando”. Es natural que tengas el
 impulso de hacerlo, es tu cerebro pidiendo su dosis de
-**satisfacción inmediata**. No te dejes engañar por la “ilusión” del
-avance, **tu objetivo es aprender**. Enfréntate a lo que no sabes lo más
+__satisfacción inmediata__. No te dejes engañar por la “ilusión” del
+avance, __tu objetivo es aprender__. Enfréntate a lo que no sabes lo más
 pronto posible, es el único camino
 para lograrlo.
 
@@ -231,7 +240,7 @@ sea útil si recién estás comenzando a aprender de Desarrollo Web, tú decides
 _Spoiler alert_: anda practicando tomar tus propias decisiones de aprendizaje,
 así serán los 6 meses de _bootcamp_.
 
-***
+---
 
 ### Hito 1
 
@@ -247,7 +256,7 @@ Comienza intentando hacer la versión más simple de una _trivia_.
 Una interfaz básica con:
 
 * Dos preguntas con sus respectivas alternativas de respuesta en forma de
-_radio buttons_ (🔘)
+   _radio buttons_ (🔘)
 * El botón para “Responder y ver resultados”.
 
 **Aprenderás:**
@@ -268,9 +277,9 @@ o _addEventListener_.
 **Aprenderás:**
 
 * A detectar eventos en el navegador (los _clicks_ de la usuaria) y hacer algo
-  cuando sucedan.
+   cuando sucedan.
 * Identificar los elementos HTML que hay en el navegador y obtener sus valores
-  y/o estados.
+   y/o estados.
 
 #### Sugerencia de micro-proyecto C: Prueba darle interacción más cercana a la que pide el proyecto
 
@@ -284,7 +293,7 @@ cuando al hacer _click_ en el botón “Responder y ver resultados”.
 * A detectar eventos en el navegador (los _clicks_ de la usuaria) .
 * Identificar los elementos HTML que hay en el navegador y obtener sus valores/estados.
 
-***
+---
 
 ### Hito 2
 
@@ -294,13 +303,13 @@ características:
 * Una caja de texto (_input text_) en la que escribe su nombre quien juega.
 * Un botón de "jugar" o "comenzar" para ir a las preguntas.
 * Esta vez deberán haber al menos 3 preguntas con sus respectivas alternativas
-  de respuesta.
+   de respuesta.
 * Antes de las peguntas debe decir "Hola [el nombre que se escribió en la
-  pantalla de bienvenida]"
+   pantalla de bienvenida]"
 * El botón para responder muestra la alternativa correcta para cada pregunta y,
-  además, muestra si cada una de las respuestas fue correcta o incorrecta.
+   además, muestra si cada una de las respuestas fue correcta o incorrecta.
 * Un botón para volver a jugar que vuelve a la pantalla inicial en la que se
-  pide el nombre.
+   pide el nombre.
 
 #### Sugerencia de micro-proyecto: Prueba evaluar las respuestas de tu usuaria
 
@@ -313,21 +322,21 @@ _Pista:_ Lee sobre condicionales y control de flujo (`if`, `else`, `else if`).
 **Aprenderás:**
 
 * A identificar los elementos HTML que hay en el navegador y obtener sus
-  valores/estados.
+   valores/estados.
 * Comparar los valores/estados de los elementos y hacer algo según el
-  resultado que obtengas de la comparación/evaluación.
+   resultado que obtengas de la comparación/evaluación.
 
-***
+---
 
 ### Hito 3
 
 * Permítele a la usuaria elegir entre 2 tipos de preguntas después de escribir
-  su nombre y antes de ir a responder.
-  Por ejemplo, unas sobre comida y otras sobre cervezas.
+   su nombre y antes de ir a responder.
+   Por ejemplo, unas sobre comida y otras sobre cervezas.
 * Agrega un puntaje a respuestas correctas e incorrectas y muestra un puntaje
-  total al final.
+   total al final.
 
-***
+---
 
 ### Hito 4
 
@@ -335,10 +344,10 @@ Si hiciste todo lo anterior y tienes un poco más de tiempo, decide qué más
 quisieras hacer para mejorar tu proyecto. Podrías, por ejemplo:
 
 * Agregar una cuenta regresiva con un tiempo límite para responder cada
-  pregunta. Para lograrlo, les dejamos
-  [una pista de javascript](https://es.javascript.info/settimeout-setinterval).
+   pregunta. Para lograrlo, les dejamos
+   [una pista de javascript](https://es.javascript.info/settimeout-setinterval).
 * [Subir tu código a GitHub](https://developer.mozilla.org/es/docs/Learn/Common_questions/Using_Github_pages)
-  (commit/push) y desplegar la interfaz usando [GitHub pages](https://pages.github.com/).
+   (commit/push) y desplegar la interfaz usando [GitHub pages](https://pages.github.com/).
 
 Independientemente de hasta qué hito alcances a hacer, asegúrate de documentar
 **brevemente** tu trabajo en un documento de Google o el archivo `README.md`
@@ -378,10 +387,10 @@ como [Replit](https://repl.it)  o [CodeSandbox](https://codesandbox.io/).
 * [Metodologías Ágiles](https://www.youtube.com/watch?v=v3fLx7VHxGM)
 * [Scrum en menos de 2 minutos](https://www.youtube.com/watch?v=TRcReyRYIMg)
 * [Scrum en Detalle](https://youtu.be/nOlwF3HRrAY). No
-  esperamos que hagas todo eso desde este proyecto.
+   esperamos que hagas todo eso desde este proyecto.
 
 #### Entrega
 
 * Todo tu proyecto debe estar como entregable en un link funcional que nos
-  permita ver tu código, puede ser el link de tu proyecto en linea ya sea
-  [Replit](https://repl.it) o [CodeSandbox](https://codesandbox.io/)
+   permita ver tu código, puede ser el link de tu proyecto en linea ya sea
+   [Replit](https://repl.it) o [CodeSandbox](https://codesandbox.io/)

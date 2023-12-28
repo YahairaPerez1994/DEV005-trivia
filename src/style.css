@@ -1,3 +1,84 @@
-/*
-  Aquí van los estilos
-*/
+/*Primero le vamos a dar estilo al titulo principal */
+h1 {
+  font-size: 59px;/*Tamaño de la letra*/
+  text-align: center;
+  background-color: #F3E5F5; /*color del fondo de la letra*/  
+  color: #080808; /*Color de la letra*/  
+}
+/* Ahora le daremos estilo al texto ingresa tu nombre pero para 
+eso generamos un id="ingresaName" para poder llamarlo en el css
+mediante el id */
+#ingresaName{
+  font-size: 39px;
+  color: #F3E5F5;  
+}
+
+/* Ahora vamos a agregarle una imagen de fondo para que se vea mas estetico
+y esto lo hacemos en el body */
+body {
+  background-image: url('img/imgtrivia.jpg'); /* Ruta de la imagen de fondo */
+  background-size: cover; /* Escala la imagen para cubrir todo el fondo */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  background-attachment: fixed; /* Fija la imagen de fondo para que no se desplace con el contenido */
+}
+
+/* Seguidamente vamos a darle estilo al inputname q es donde el usuario va a ingresar
+su nombre */
+#inputName{
+  width: 25%; /*Ancho del input*/
+  height: 30px; /*Altura del input*/
+  border-radius: 9px; /*Borde del input*/
+}
+
+/* Damos estilo al btn empezar, pero primero 
+le agregamos id="btnempezar" al html*/
+#btnempezar{
+  width: 11%;
+  height: 28px;
+  font-size: 17px;
+  border-radius: 9px;
+  background-color: #F3E5F5;
+}
+
+  /* Estilos para las imágenes */
+  img {
+    width: 50%; /* Limita el ancho de la imagen al 100% del contenedor */
+    cursor: pointer; /* Cambia el cursor al pasar sobre las imágenes */
+  }
+
+  /* Agregar estilos para el efecto hover (movimiento) */
+  img:hover {
+    transform: scale(1.1); /* Escala la imagen al 110% en el efecto hover */
+  }
+
+/* Estilos para las opciones */
+#preguntas {
+    text-align: center;
+    color: white;
+    font-size: 28px;
+}
+    
+#enviarRepuesta{
+    width: 20%;
+    height: 36px;
+    font-size: 17px;
+    border-radius: 9px;
+    background-color: #F3E5F5;
+  }
+
+  footer{
+    text-align: center;
+    background-color: #F3E5F5;  
+    color: #080808;  
+    font-size:35px;
+    margin-top:207px;
+}
+
+/* Para la ultima sesion */
+  #preguntas {
+    /* Establece la propiedad display en "none" para el elemento con id "preguntas". 
+    Esto significa que el elemento con id "preguntas" estará oculto y no será visible
+    en la página. Es común utilizar esto para ocultar elementos que se mostrarán más
+    tarde a través de JavaScript u otras interacciones del usuario. */
+    display: none;
+  }

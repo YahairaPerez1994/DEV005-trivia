@@ -1,13 +1,70 @@
 <!DOCTYPE html>
-<html lang="es" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trivia</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <div id="root"></div>
-    <script src="main.js"></script>
-  </body>
-</html>
+<html>
+    <!-- Aqui va el encabezado,lo que no es visible para el usuario -->
+<head>
+    <title>
+        Mi primera pagina web
+    </title>
+    <meta charset="utf-8"/>
+   <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <header>
+        <h1>Trivia de peliculas</h1>
+    </header>
+    <p id="ingresaName"> Ingresa tu nombre</p>
+    <br/>
+    <input id="inputName" type="text" required>
+    <button id="btnempezar" onclick="empezarPreguntas()">Empezar</button>
+    <br/>
+    <br/>
+    <div id="preguntas">
+        <h2 id="saludo"></h2>
+        <div>
+            <img src="img/avatar.jpg"/>
+            <h3>¿Cómo se llama esta película?</h3>
+            <input type="radio" name="namePregunta1" value="opcion1">Maze Runner</input>
+            <br/>
+            <input type="radio" name="namePregunta1" value="opcion2">Avatar</input>
+            <br/>
+            <input type="radio" name="namePregunta1" value="opcion3">Titanic</input>
+            <br/>
+            <br/>
+            <br/>
+        </div>
+        <div>
+            <img src="img/spiderman.jpg"/>
+            <h3>¿Cómo se llama esta película?</h3>
+            <input type="radio" name="namePregunta2" value="opcion1">Avatar</input>
+            <br/>
+            <input type="radio" name="namePregunta2" value="opcion2">Titanic</input>
+            <br/>
+            <input type="radio" name="namePregunta2" value="opcion3">Spiderman</input>
+            <br/>
+            <br/>
+            <br/>
+        </div>
+        <div>
+            <img src="img/titanic.jpg"/>
+            <h3>¿Cómo se llama esta película?</h3>
+            <input type="radio" name="namePregunta3" value="opcion1">Titanic</input>
+            <br/>
+            <input type="radio" name="namePregunta3" value="opcion2">Spiderman</input>
+            <br/>
+            <input type="radio" name="namePregunta3" value="opcion3">Avatar</input>
+            <br/>
+            <br/>
+            <br/>
+        </div>
+        <button onclick="calcularPuntuacion()" id="enviarRepuesta">Enviar Respuesta</button>
+    </div>
+    <h4 id="puntajeTotal"></h4>
+    <br/>
+    <br/>
+    <br/>
+    <footer>Autora: Yahaira Perez</footer>
+    <script src="app.js"></script>
+</body>
+    </html>
+
+  
